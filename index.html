@@ -7,8 +7,36 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <!-- YOUR CODE HERE -->
-  
+  <div>
+    <input type="text" id="cityInput" placeholder="Type here a city...">
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <h2 id="cityName">City</h2>
+  <p id="cityTemp">Current weather: -- °C</p>
+
+  <img id="dayImg" src="images/day.jpg" alt="day" width="600px">
+  <img id="nightImg" src="images/night.jpg" alt="night" width="600px" style="display:none;">
+
+  <table>
+    <tr>
+      <td>Country</td>
+      <td id="CountryData">--</td>
+    </tr>
+    <tr>
+      <td>Timezone</td>
+      <td id="TimezoneData">--</td>
+    </tr> 
+    <tr>
+      <td>Population</td>
+      <td id="PopulationData">--</td>
+    </tr>
+    <tr>
+      <td>Tomorrow's Forecast</td>
+      <td id="ForecastData">--</td>
+    </tr>
+  </table>
+
   <script src="./app.js"></script>
 </body>
 </html>

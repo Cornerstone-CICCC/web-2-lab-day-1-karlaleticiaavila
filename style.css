@@ -1,0 +1,35 @@
+body {
+  text-align: center; 
+  font-family: Arial, sans-serif;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto; 
+}
+
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+td:first-child {
+  font-weight: bold;
+  text-align: left;
+}
+
+td:last-child {
+  text-align: right;
+}
+
